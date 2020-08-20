@@ -1,0 +1,73 @@
+form {
+  max-width: 25em;
+  margin: 1em auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.input-group-append,
+.input-group-prepend {
+  justify-content: center;
+}
+
+.todo-input {
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  padding: 5px 10px;
+}
+
+
+
+
+.add-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 5px 20px;
+  border-radius: 43px;
+  margin-left: 10px;
+  font-size: 20px;
+  /*width: 120px;*/
+}
+
+.fa-plus:before {
+  content: "\f067";
+  margin: 8px;
+  font-size: 20px;
+}
+
+ul.list-instyled.tasks-list {
+  padding: 0;
+  margin-left: 25px;
+  list-style: circle;
+  text-align: left;
+}
+
+.data {
+  min-height: 500px;
+  border-radius: 10px;
+  position: relative;
+  background-color: #ffffff;
+
+}
+
+/*.data::after {
+  content: "";
+  background: url(../assets/quill-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px;
+}
+*/
+.tasks-list li {
+  padding: 5px 0px;
+}

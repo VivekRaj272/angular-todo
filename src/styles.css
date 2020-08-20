@@ -1,0 +1,8 @@
+body {
+  padding: 0;
+  margin: 0;
+  /*font-family: 'Cedarville Cursive', cursive;*/
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #dde4e7;
+  /*background: url(assets/quill-bg.jpg);*/
+}

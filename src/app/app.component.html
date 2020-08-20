@@ -1,0 +1,17 @@
+<div class="container">
+  <form>
+    <div class="form-group text-center">
+      <h1 class="text-center text-primary font-weight-bold p-4">Todo App</h1>
+      <div class="input-group-prepend">
+        <input #todo class="todo-input" type="text" placeholder="enter task name" name="text" ngModel>
+        <span class="input-group-text add-btn" (click)="addTodo(todo.value)"> <i class="fa fa-plus" aria-hidden="true"></i></span>
+      </div>
+    </div>
+  </form>
+  <div class="data text-center">
+  <ul class="list-instyled tasks-list p-3">
+    <li *ngFor="let todo of todoArray">{{todo}}</li>
+  </ul>
+</div>
+</div>
+
